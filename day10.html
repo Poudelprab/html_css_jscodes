@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table with css</title>
+</head>
+<style text="text/css">
+    table.one {
+        border-collapse: collapse;
+        margin:16px;
+    }   
+    img{
+        width:100px;
+        height: 100px;
+        margin-bottom:  100px;
+
+    }
+
+    td{
+        /* background-color:green; */
+        margin:100px;
+    }
+    table.two {
+        border-collapse: separate;
+        margin:1rem;
+        
+    }
+
+    td.a {
+        border: 2px dotted #bd0d0d;
+        padding: 10px;
+margin:60px;
+
+    }
+
+    td.b {
+        border: 3px solid #333333;
+        padding: 10px;
+        margin:100px;
+    }
+</style>
+
+<body>
+
+    <table class="one">
+        <caption>
+            collapse boredr example </caption>
+        <tr>
+            <td class="a">cell a collapse eaxample</td>
+        </tr>
+        <tr>
+            <td class="b">cell b collapse example</td>
+        </tr>
+
+
+    </table>
+    <br>
+    <table class="two">
+        <caption>separate example</caption>
+        <tr><td class="a">classa example</td></tr>
+        <tr><td class="b">classb example</td></tr>
+        <img src="./Screenshot 2023-11-23 194647.png" alt="">
+    </table>
+</body>
+
+</html>

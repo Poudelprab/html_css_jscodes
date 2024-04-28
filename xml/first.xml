@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<PU>
+<Centers>
+<Center>
+<Code>001</Code>
+<Location id="Pkr">Pokhara</Location>
+<Phone>34474</Phone>
+<Email>pkr@webcom.com</Email>
+</Center>
+
+<Center>
+<Code>003</Code>
+<Location id="ktm">Kathmandu</Location>
+<Phone>46573</Phone>
+<Email>ktm@webcam.com</Email>
+</Center>
+
+<Center>
+<Code>004</Code>
+<Location id="Tnu">Tanahu</Location>
+<Phone>76674477</Phone>
+<Email>tanahu@webcom.com</Email>
+</Center>
+</Centers>
+</PU>

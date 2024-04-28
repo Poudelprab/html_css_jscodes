@@ -1,0 +1,18 @@
+PU{
+    font-family: verdana;
+    color:brown;
+}
+
+Centre{
+    background-color: yellow;
+    display:block;
+    margin:5px;
+}
+Location{
+    font-size:large;
+    display: block;
+}
+Email{
+    font-size: small;
+    display: block;
+}

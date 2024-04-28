@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<!-- tiemer function -->\
+<html>
+    <body>
+        <title>
+            Timer function
+        </title>
+        <p> Click "Try it." Wait 3 seconds.THe page will alert"hello"</p>
+        <p>Click "stop" to prevent the first function to execute</p>
+        <p>(You must click "stop" before the 3 seconds are up.)</p>
+
+        <button onclick="myVar=setTimeout(myFunction,3000)">Try it </button>
+
+        <button onclick="clearTimeout(myVar)">Stopit</button>
+
+        <script>
+            function myFunction()
+            {
+                alert("Hello");
+            }
+        </script>
+    </body>
+</html>
